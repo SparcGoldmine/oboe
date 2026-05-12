@@ -75,7 +75,8 @@ target_compile_options(oboe
         -Wextra-semi
         -Wshadow
         -Wshadow-field
-        -Ofast
+        -O3
+        -ffast-math
         "$<$<CONFIG:DEBUG>:-Werror>")
 
 # Enable logging for debug builds
